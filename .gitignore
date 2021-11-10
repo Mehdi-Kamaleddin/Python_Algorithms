@@ -2,6 +2,8 @@
 *.pdf
 *.jpg
 *.jpeg
+*.png
+*.rar
 *.mp4
 *_[0-99].py
 *_On/
