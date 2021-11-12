@@ -1,0 +1,68 @@
+Diabetics Mellitus commons with RA: 
+HLA-DRB1
+PTPN22
+IL6
+PON1
+FOXP3
+ADIPOQ
+IL2RA
+NCF1
+PTGS2
+CAT
+
+Diabetics Mellitus commons with Sjogern Syndrome: 
+NCF1
+HLA-DRB1
+IL2RA
+IL6
+
+Diabetics Mellitus commons with Dry Eye Disease: 
+HLA-DRB1
+STAT3
+ADIPOQ
+INS
+CP
+
+RA commons with Sjogren Syndrom: 
+FCGR2A
+STAT4
+HLA-DRB1
+IL6
+TNF
+IFNG
+HLA-DPB1
+IL23A
+IL18
+CXCL8
+IRF5
+TRAF6
+IL2RA
+IL1B
+NCF1
+TNFAIP3
+BLK
+IL10
+
+RA commons with Dry Eye Disease: 
+HLA-DRB1
+IGFBP3
+CSF2
+MTHFR
+ADIPOQ
+IL18
+IL10
+
+Sjogren commons with Dry Eye Disease: 
+HLA-DRB1
+AQP5
+IL13
+ICAM1
+EGF
+CTSS
+HLA-DRA
+IL18
+SSB
+CCR7
+AIRE
+IL10
+RO60
