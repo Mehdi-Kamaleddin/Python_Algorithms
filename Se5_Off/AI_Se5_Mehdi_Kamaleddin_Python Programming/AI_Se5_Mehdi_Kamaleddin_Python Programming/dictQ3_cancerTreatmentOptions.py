@@ -9,7 +9,7 @@ while n < adminsNo:
     c=1
     for i in mypatients.keys():
         c+=1
-    mypatients["patient"+str(c)]=dict.fromkeys(mylist)
+    # mypatients["patient"+str(c)]=dict.fromkeys(mylist)
     
     print('------------------------------------')
     print("Patient Number",c,":")
