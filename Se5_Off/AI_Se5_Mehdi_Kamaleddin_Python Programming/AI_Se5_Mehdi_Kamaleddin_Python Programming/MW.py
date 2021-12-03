@@ -21,7 +21,16 @@ while i < len(molList):
     if molList[i] in atomW and i+1 < len(molList):
         # if there is a numeric object after the atom, that would be the number of atom which should be multiplied by the atomic weight
         if molList[i+1] not in atomW:
-            atomcalc = atomW[molList[i]] * int(molList[i+1])
+            # if the number of atom is "2-digits" or more:
+            number = []
+            for j in range(i+1, len(molList)):
+                if molList[j].isnumeric():
+                    number.append(molList[j])
+                else:
+                    break
+            intnumber = int("".join(number))
+            print(intnumber)
+            atomcalc = atomW[molList[i]] * intnumber
             totalcalc += atomcalc
             i += 1
         else:
