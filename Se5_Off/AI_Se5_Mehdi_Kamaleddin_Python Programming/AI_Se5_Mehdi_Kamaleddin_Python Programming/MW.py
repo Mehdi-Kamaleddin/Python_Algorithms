@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 molecule = input('enter your molecule formula: ')
 
 # atomic weight dictionary:
@@ -47,3 +48,7 @@ while i < len(molList):
         i += 1
 
 print('total molecular weight is: ', totalcalc)
+=======
+myformula = '22'
+print(myformula.isalpha())
+>>>>>>> bfcb76f26c7db4ba66c5f462aa61d4c8f36912da
