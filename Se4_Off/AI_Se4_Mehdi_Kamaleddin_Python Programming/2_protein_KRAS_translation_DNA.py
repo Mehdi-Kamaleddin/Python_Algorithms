@@ -53,7 +53,7 @@ print(len(protein_list))    #numbner of aminoacids of KRAS protein
 
 
 print("====================================================================================")
-
+protein=[]
 while len(gseq)>=3:
     print(len(gseq))
     rib=gseq[0:3]
