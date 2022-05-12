@@ -1,0 +1,6 @@
+nucleotides,name,code,atomicFormula,rNTP,rNMP,dNTP,dNMP
+A,Adenine,a,C10H12O5N5P,507.2,347.2,491.2,331.2
+C,Cytosine,c,C10H12O6N5P,483.2,323.2,467.2,307.2
+G,Guanine,g,C9H12O6N3P,523.2,363.2,507.2,347.2
+T,Thymine,t,C10H13O7N2P,0,0,482.2,322.2
+U,Uracil,u,C9H11O7N2P,484.2,324.2,0,0
