@@ -6,13 +6,15 @@ prop=['Abr','Code','AtomicNumber','MW','Solubility']
 nclDic=dict.fromkeys(ncl)
 print(nclDic)
 
-# nclProp=pd.DataFrame(index=ncl,columns=prop)
-# nclProp
+nclProp=pd.DataFrame(index=ncl,columns=prop)
+nclProp
 nclProp=pd.DataFrame(nclDic,index=ncl,columns=prop)
 nclProp
-#########
-# my=[i for i in nclprop.index]
-# nclprop.loc[my,:]=[['Uracil','u',314,32453,52],['esrg0','fs',5653,3652,2355],['sbsb','f',25,35,35],['erg','r',5623,25,2],['esrr','h',25,25,25]]
+##########
+# my=[i for i in nclProp.index]
+# my
+# nclProp.loc[my,:]=[['Uracil','u',314,32453,52],['esrg0','fs',5653,3652,2355],['sbsb','f',25,35,35],['erg','r',5623,25,2],['esrr','h',25,25,25]]
+# nclProp
 # dict={
 #       'A':{
 #           'mw':24,
